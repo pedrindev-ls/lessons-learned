@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+hr{
+    width: 142.5%;
+}
 body{
     background-color: rgb(253,251,251);
 }
@@ -8,6 +11,10 @@ body{
     background-color: lightblue;
     margin-top: 0%;
     padding: 1%;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 18%;
 }
 #titulo, #subtitulo, #menu{
     margin: 1%;
@@ -19,9 +26,13 @@ body{
     display: inline-block;
     margin-left:2%;
 }
+main{
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
 #minha_foto{
     border-radius: 100%;
-    margin: 5%;
+    margin: 6%;
 }
 #inicio{
     width: 70%;
@@ -31,12 +42,20 @@ body{
     background-color: rgb(142, 142, 247);
     width: 40%;
     margin-left: 4%;
+    border: 5px solid lightcyan;
 }
 #foto, #aprese{
     display: inline-block;
     height: 50%;
     align-items: center;
     vertical-align: middle;
+}
+#lista{
+    width: 34%;
+}
+#lista, #adicao{
+    display: inline-block;
+    vertical-align: top;
 }
 #licoes_aprendidas{
     float: left;
@@ -48,6 +67,25 @@ body{
     margin: 2%;
     width: 40%;
 }
+#adicao{
+    width: 65%;
+}
 #aprendizado, #experi, #rodape{
     clear: both;
+}
+#aprendizado, #experi{
+    width: 40%;
+    margin: 2%;
+    display: inline-block;
+    vertical-align: top;
+    border: 5px solid lightcyan;
+}
+#rodape{
+    bottom: 0;
+    position: fixed;
+    background-color: lightblue;
+    width: 100%;
+}
+#rodape_text{
+    text-align: center;
 }
