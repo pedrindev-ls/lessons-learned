@@ -7,8 +7,47 @@ body{
 #cabecalho{
     background-color: lightblue;
     margin-top: 0%;
+    padding: 1%;
 }
-#navegacao{
-    list-style: none;
+#titulo, #subtitulo, #menu{
+    margin: 1%;
+}
+#resumo{
+    width: 40%;
+}
+.top{
     display: inline-block;
+    margin-left:2%;
+}
+#minha_foto{
+    border-radius: 100%;
+    margin: 5%;
+}
+#inicio{
+    width: 70%;
+}
+#aprese{
+    text-align: center;
+    background-color: rgb(142, 142, 247);
+    width: 40%;
+    margin-left: 4%;
+}
+#foto, #aprese{
+    display: inline-block;
+    height: 50%;
+    align-items: center;
+    vertical-align: middle;
+}
+#licoes_aprendidas{
+    float: left;
+    margin: 2%;
+}
+#licoes_a_aprender{
+    display: inline-block;
+    clear: left;
+    margin: 2%;
+    width: 40%;
+}
+#aprendizado, #experi, #rodape{
+    clear: both;
 }
