@@ -1,11 +1,14 @@
 *{
     margin: 0;
+    font-family: Inconsolata;
+    color: rgb(87, 87, 87);
 }
 hr{
     width: 142.5%;
 }
 body{
     background-color: rgb(253,251,251);
+    font-size: 110%;
 }
 #cabecalho{
     background-color: lightblue;
@@ -15,6 +18,7 @@ body{
     position: fixed;
     width: 100%;
     height: 18%;
+    line-height: 99%;
 }
 #titulo, #subtitulo, #menu{
     margin: 1%;
@@ -25,6 +29,11 @@ body{
 .top{
     display: inline-block;
     margin-left:2%;
+}
+table, tr, th{
+    border: 1px solid gray;
+    margin-top: 2%;
+    float: right;
 }
 main{
     margin-top: 10%;
